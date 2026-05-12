@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  XML-файл данных специалистов ФОЦ "Виталь"
+  Используется для динамической загрузки через JavaScript (DOM)
+-->
+<!DOCTYPE specialists [
+  <!ELEMENT specialists (specialist+)>
+  <!ELEMENT specialist (id, name, specialization, photo, category)>
+  <!ELEMENT id (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT specialization (#PCDATA)>
+  <!ELEMENT photo (#PCDATA)>
+  <!ELEMENT category (#PCDATA)>
+]>
+<specialists>
+  <specialist>
+    <id>1</id>
+    <name>Коляденко Дмитрий Олегович</name>
+    <specialization>Врач-травматолог-ортопед</specialization>
+    <photo>../images/doctor1.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>2</id>
+    <name>Маркарян Арсен Олегович</name>
+    <specialization>Врач спортивной медицины</specialization>
+    <photo>../images/doctor2.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>3</id>
+    <name>Крейс Юджин Владимирович</name>
+    <specialization>Врач-невролог</specialization>
+    <photo>../images/doctor3.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>4</id>
+    <name>Вульф Стивен Карлович</name>
+    <specialization>Врач-физиотерапевт</specialization>
+    <photo>../images/doctor4.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>5</id>
+    <name>Хаус Олег Семёнович</name>
+    <specialization>Врач-травматолог-ортопед</specialization>
+    <photo>../images/doctor5.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>6</id>
+    <name>Рональд Джереми Хайят</name>
+    <specialization>Врач-невролог</specialization>
+    <photo>../images/doctor6.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>7</id>
+    <name>Роко Олег Олегович</name>
+    <specialization>Врач-физиотерапевт</specialization>
+    <photo>../images/doctor7.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>8</id>
+    <name>Дедлайнов Пётр Горшкович</name>
+    <specialization>Инструктор ЛФК</specialization>
+    <photo>../images/trainer1.jpg</photo>
+    <category>Инструктор</category>
+  </specialist>
+  <specialist>
+    <id>9</id>
+    <name>Нормисов Егор Какадович</name>
+    <specialization>Инструктор-методист физической реабилитации</specialization>
+    <photo>../images/trainer2.jpg</photo>
+    <category>Инструктор</category>
+  </specialist>
+  <specialist>
+    <id>10</id>
+    <name>Дронов Ярослав Павлович</name>
+    <specialization>Групповой тренер по кроссфиту</specialization>
+    <photo>../images/trainer3.jpg</photo>
+    <category>Тренер</category>
+  </specialist>
+  <specialist>
+    <id>11</id>
+    <name>Нейтральнов Шон Павлович</name>
+    <specialization>Врач спортивной медицины</specialization>
+    <photo>../images/trainer4.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+  <specialist>
+    <id>12</id>
+    <name>Назарбаев Егор Абдуллаев</name>
+    <specialization>Врач лечебной физкультуры</specialization>
+    <photo>../images/trainer5.jpg</photo>
+    <category>Врач</category>
+  </specialist>
+</specialists>
