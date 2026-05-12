@@ -1,0 +1,88 @@
+{
+  "specialists": [
+    {
+      "id": 1,
+      "name": "Коляденко Дмитрий Олегович",
+      "specialization": "Врач-травматолог-ортопед",
+      "photo": "../images/doctor1.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 2,
+      "name": "Маркарян Арсен Олегович",
+      "specialization": "Врач спортивной медицины",
+      "photo": "../images/doctor2.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 3,
+      "name": "Крейс Юджин Владимирович",
+      "specialization": "Врач-невролог",
+      "photo": "../images/doctor3.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 4,
+      "name": "Вульф Стивен Карлович",
+      "specialization": "Врач-физиотерапевт",
+      "photo": "../images/doctor4.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 5,
+      "name": "Хаус Олег Семёнович",
+      "specialization": "Врач-травматолог-ортопед",
+      "photo": "../images/doctor5.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 6,
+      "name": "Рональд Джереми Хайят",
+      "specialization": "Врач-невролог",
+      "photo": "../images/doctor6.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 7,
+      "name": "Роко Олег Олегович",
+      "specialization": "Врач-физиотерапевт",
+      "photo": "../images/doctor7.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 8,
+      "name": "Дедлайнов Пётр Горшкович",
+      "specialization": "Инструктор ЛФК",
+      "photo": "../images/trainer1.jpg",
+      "category": "инструктор"
+    },
+    {
+      "id": 9,
+      "name": "Нормисов Егор Какадович",
+      "specialization": "Инструктор-методист физической реабилитации",
+      "photo": "../images/trainer2.jpg",
+      "category": "инструктор"
+    },
+    {
+      "id": 10,
+      "name": "Дронов Ярослав Павлович",
+      "specialization": "Групповой тренер по кроссфиту",
+      "photo": "../images/trainer3.jpg",
+      "category": "тренер"
+    },
+    {
+      "id": 11,
+      "name": "Нейтральнов Шон Павлович",
+      "specialization": "Врач спортивной медицины",
+      "photo": "../images/trainer4.jpg",
+      "category": "врач"
+    },
+    {
+      "id": 12,
+      "name": "Назарбаев Егор Абдуллаев",
+      "specialization": "Врач лечебной физкультуры",
+      "photo": "../images/trainer5.jpg",
+      "category": "врач"
+    }
+  ]
+}

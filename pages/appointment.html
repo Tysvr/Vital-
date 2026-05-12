@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Запись на приём в ФОЦ Виталь. Онлайн-запись на консультацию или занятие.">
+    <title>Запись на приём — ФОЦ «Виталь»</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="../index.html" class="header__logo">
+                <img src="../images/logo.svg" alt="Логотип Виталь" class="header__logo-img" width="40" height="40">
+                ВИТАЛЬ
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <div class="header__nav-item"><a href="about.html">О центре</a></div>
+                <div class="header__nav-item header__nav-item--dropdown">
+                    <a href="../index.html#directions">Направления работы</a>
+                    <ul class="header__dropdown">
+                        <li><a href="sport-medicine.html">Спортивная медицина</a></li>
+                        <li><a href="massage.html">Лечебный массаж</a></li>
+                        <li><a href="pool.html">Бассейн</a></li>
+                        <li><a href="lfk.html">Лечебная физкультура</a></li>
+                        <li><a href="physio.html">Физиотерапия</a></li>
+                        <li><a href="groups.html">Групповые занятия</a></li>
+                        <li><a href="gym.html">Тренажёрный зал</a></li>
+                        <li><a href="kids.html">Детское ОФП</a></li>
+                    </ul>
+                </div>
+                <div class="header__nav-item"><a href="specialists.html">Специалисты</a></div>
+            </nav>
+            <div class="header__contact">
+                <span>Минск, пр-т Победителей, 67</span>
+                <span>+375 29 769-52-67</span>
+            </div>
+            <button class="header__burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="appointment">
+            <div class="container">
+                <form class="appointment__form" id="appointmentForm">
+                    <h2 class="appointment__title">Запись на приём</h2>
+                    <div class="appointment__group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" name="name" placeholder="Иванов Иван" required>
+                    </div>
+                    <div class="appointment__group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+375 (29) 123-45-67" required>
+                    </div>
+                    <div class="appointment__group">
+                        <label for="direction">Направление</label>
+                        <select id="direction" name="direction" required>
+                            <option value="">Выберите направление</option>
+                            <option value="sport-medicine">Спортивная медицина</option>
+                            <option value="massage">Лечебный массаж</option>
+                            <option value="pool">Бассейн</option>
+                            <option value="lfk">Лечебная физкультура</option>
+                            <option value="physio">Физиотерапия</option>
+                            <option value="groups">Групповые занятия</option>
+                            <option value="gym">Тренажёрный зал</option>
+                            <option value="kids">Детское ОФП</option>
+                        </select>
+                    </div>
+                    <div class="appointment__group">
+                        <label for="date">Желаемая дата</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="appointment__group">
+                        <label for="message">Комментарий</label>
+                        <textarea id="message" name="message" placeholder="Опишите вашу проблему или пожелания..."></textarea>
+                    </div>
+                    <button type="submit" class="appointment__btn">Отправить заявку</button>
+                </form>
+                <div class="appointment__success" id="successMessage">
+                    <h3>Спасибо за заявку!</h3>
+                    <p>Мы свяжемся с вами в ближайшее время для подтверждения записи.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <h3>Контакты</h3>
+                    <a href="tel:+375297695267">+375 29 769-52-67</a>
+                    <a href="mailto:info@vital.by">info@vital.by</a>
+                </div>
+                <div class="footer__col">
+                    <h3>Адрес и режим работы</h3>
+                    <p>Минск, пр-т Победителей, 67</p>
+                    <p>Пн–Пт: 9.00–21.00</p>
+                    <p>Сб: 9.00–17.00</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Юридическая информация</h3>
+                    <p>ООО «Виталь»</p>
+                    <p>Лицензия № М-8708 выдана 17.03.2022г.</p>
+                </div>
+            </div>
+            <div class="footer__bottom"><p>© 2025 ФОЦ «Виталь». Все права защищены.</p></div>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Специалисты ФОЦ Виталь. Врачи, тренеры и реабилитологи.">
+    <title>Специалисты — ФОЦ «Виталь»</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <a href="../index.html" class="header__logo">
+                <img src="../images/logo.svg" alt="Логотип Виталь" class="header__logo-img" width="40" height="40">
+                ВИТАЛЬ
+            </a>
+            <nav class="header__nav" id="mainNav">
+                <div class="header__nav-item"><a href="about.html">О центре</a></div>
+                <div class="header__nav-item header__nav-item--dropdown">
+                    <a href="../index.html#directions">Направления работы</a>
+                    <ul class="header__dropdown">
+                        <li><a href="sport-medicine.html">Спортивная медицина</a></li>
+                        <li><a href="massage.html">Лечебный массаж</a></li>
+                        <li><a href="pool.html">Бассейн</a></li>
+                        <li><a href="lfk.html">Лечебная физкультура</a></li>
+                        <li><a href="physio.html">Физиотерапия</a></li>
+                        <li><a href="groups.html">Групповые занятия</a></li>
+                        <li><a href="gym.html">Тренажёрный зал</a></li>
+                        <li><a href="kids.html">Детское ОФП</a></li>
+                    </ul>
+                </div>
+                <div class="header__nav-item"><a href="specialists.html">Специалисты</a></div>
+            </nav>
+            <div class="header__contact">
+                <span>Минск, пр-т Победителей, 67</span>
+                <span>+375 29 769-52-67</span>
+            </div>
+            <button class="header__burger" id="burgerBtn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container"><h1>Наши специалисты</h1></div>
+        </section>
+        <section class="specialists-page">
+            <div class="container">
+                <div class="specialists-page__grid" id="specialistsGrid">
+                    <!-- Карточки специалистов загружаются динамически из XML через JavaScript (DOM) -->
+                    <div class="specialists-page__loading">Загрузка специалистов...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <h3>Контакты</h3>
+                    <a href="tel:+375297695267">+375 29 769-52-67</a>
+                    <a href="mailto:info@vital.by">info@vital.by</a>
+                </div>
+                <div class="footer__col">
+                    <h3>Адрес и режим работы</h3>
+                    <p>Минск, пр-т Победителей, 67</p>
+                    <p>Пн–Пт: 9.00–21.00</p>
+                    <p>Сб: 9.00–17.00</p>
+                </div>
+                <div class="footer__col">
+                    <h3>Юридическая информация</h3>
+                    <p>ООО «Виталь»</p>
+                    <p>Лицензия № М-8708 выдана 17.03.2022г.</p>
+                </div>
+            </div>
+            <div class="footer__bottom"><p>© 2025 ФОЦ «Виталь». Все права защищены.</p></div>
+        </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+</html>
